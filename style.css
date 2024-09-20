@@ -1,0 +1,104 @@
+div 
+    {
+        display: table; 
+        margin: 0 auto;
+        text-align: left;
+        }
+
+ul {
+display: table; 
+margin: 0 auto;
+text-align: left;
+}
+
+h1 {
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
+    }
+h2 {
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
+    }
+
+img {
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+p {
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.palatino-font
+{
+font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+#intro {
+    color: blue;
+}
+
+
+ul li a:hover {
+    display: inline-block;
+    transform: translateX(15px);
+    transition: transform 0.3s ease; 
+}
+
+
+h3 {
+    font-size: 18px; 
+    transition: color 0.5s ease-in-out; 
+}
+
+
+h3:hover {
+    animation: rainbow-text 1s infinite linear; 
+}
+
+
+@keyframes rainbow-text {
+    0% { color: red; }
+    16% { color: orange; }
+    32% { color: yellow; }
+    48% { color: green; }
+    64% { color: blue; }
+    80% { color: indigo; }
+    100% { color: violet; }
+}
+
+
+body {
+    background-color: rgb(190, 246, 245); 
+    color: black;
+}
+
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: lightgreen; 
+        color: black;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: rgb(189, 146, 235); 
+        color: black;
+    }
+}
+
+@media print {
+    iframe {display: none}
+}
